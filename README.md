@@ -17,6 +17,6 @@ When we drive, we use our eyes to decide where to go.  The lines on the road tha
 * [White](white.mp4), [Yellow](yellow.mp4), and [Extra](extra.mp4) are the video files generated from the lane finding program.
 * [The results folder](results/) contains images showing steps along the pipeline. This is referenced in the writeup.
 * [The canny folder](canny/) contains a group of images generated for selecting the optimal threshold for the Canny Edge detector
-* [The masks folder](masks folder) contains images of the yellow, white, and combined masks used for the challenge.
+* [The masks folder](masks) contains images of the yellow, white, and combined masks used for the challenge.
 
 
