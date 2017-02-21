@@ -13,7 +13,8 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-[image0]: ./results/image.jpg "Grayscale"[image1]: ./results/grayscale.jpg "Grayscale"
+[image0]: ./results/image.jpg "Ref Image"
+[image1]: ./results/grayscale.jpg "Grayscale"
 [image2]: ./results/blur.jpg "Gaussian Blur"
 [image3]: ./results/canny.jpg "Canny Edge Detection"
 [image4]: ./results/roi.jpg "Region of Interest"
