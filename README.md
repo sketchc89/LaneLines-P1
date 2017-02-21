@@ -12,11 +12,11 @@ When we drive, we use our eyes to decide where to go.  The lines on the road tha
 
 #Files
 
-* writeup_template.md contains a writeup of the project. It describes the project, how it works, its current limitations, and potential future paths.
-* P1.ipynb contains all of the code written for this project. The pipeline is broken into individual cells for explanatory purposes before being combined to be run on the videos.
-* white.mp4, yellow.mp4, and extra.mp4 are the video files generated from the lane finding program.
-* results folder contains images showing steps along the pipeline. This is referenced in the writeup.
-* canny folder contains a group of images generated for selecting the optimal threshold for the Canny Edge detector
-* masks folder contains images of the yellow, white, and combined masks used for the challenge.
+* [writeup_template.md](writeup_template.md) contains a writeup of the project. It describes the project, how it works, its current limitations, and potential future paths.
+* [P1.ipynb](P1.ipynb) contains all of the code written for this project. The pipeline is broken into individual cells for explanatory purposes before being combined to be run on the videos.
+* [White](white.mp4), [Yellow](yellow.mp4), and [Extra](extra.mp4) are the video files generated from the lane finding program.
+* [The results folder](results/) contains images showing steps along the pipeline. This is referenced in the writeup.
+* [The canny folder](canny/) contains a group of images generated for selecting the optimal threshold for the Canny Edge detector
+* [The masks folder](masks folder) contains images of the yellow, white, and combined masks used for the challenge.
 
 
