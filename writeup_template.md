@@ -30,7 +30,8 @@ The goals / steps of this project are the following:
 ###1. Describe your pipeline. As part of the description, explain how you modified the draw_lines() function.
 
 My pipeline consists of 7 steps. 
-![alt text][Reference Image]
+
+![Reference Image][image0]
 
 1. The image is converted to gray-scale. ![Grayscale][image1]
 
