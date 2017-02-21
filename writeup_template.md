@@ -50,12 +50,11 @@ In order to draw a single line along the lane lines I modified the draw_line fun
 
 For the challenge I added a couple more steps. The brightness of one patch of road saturated the camera. In order to account for this I separated out the yellow and white lane lines by detecting only parts of the image with a specific HSV values. I then darkened the image to reduce the likelihood that the camera would be saturated. I also changed the ROI to account for the change in viewing angle. The camera was detecting the front of the car in this video. The following image is a mask of the yellow and white sections used on the challenge ![Masks][image8]
 
-If you'd like to include images to show how the pipeline works, here is how to include an image: 
-
 
 ###2. Identify potential shortcomings with your current pipeline
 
 The following are shortcomings of the current pipeline.
+
 1. The current pipeline is not very robust to changes in brightness. It's able to compensate for changes in brightness for parts of the challenge, but the algorithm is very tuned to this specific example.
 
 2. The current pipeline is not robust to curving roads. The interstate highway system in the U.S. is composed of segment of large straight sections and curving sections. The lanes identified by the pipeline diverge from the curved lines and mean the lane lines are accurate at a shorter distance or when the radius of curvature of the road is large or infinite (straight).
@@ -63,7 +62,9 @@ The following are shortcomings of the current pipeline.
 3. The current pipeline assumes the camera is calibrated correctly and doesn't attempt to correct distortions.
 
 4. The current pipeline assumes that the horizon is at a fixed height. This means it's likely not robust to changes in viewing angle from camera tilt or going uphill or downhill.
+
 5. The current pipeline can accidentally detect long straight lines that are not lane lines. The concrete highway barrier in the challenge is an example of a long straight object that is erroneously detected as a lane line.
+
 6. The current pipeline is not robust to inclement weather like heavy rain, snow, or leaves that affect the visibility of the road.
 
 ###3. Suggest possible improvements to your pipeline
